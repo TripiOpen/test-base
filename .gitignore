@@ -99,3 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+src/web/\.pytest_cache/v/cache/
