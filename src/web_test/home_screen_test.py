@@ -1,11 +1,10 @@
 import unittest
 
-from src.bases.test_base import TestBase
+from bases import TestBase
 
 class HomeScreenTest(TestBase):
-    
     def loadIndex(self):
-        pass
+        self.load_page("https://www.tripi.vn/")
 
 if __name__ == "__main__":
     SUITE = unittest.TestLoader().loadTestsFromTestCase(HomeScreenTest)
