@@ -1,0 +1,4 @@
+[
+  "home_screen_test.py::HomeScreenTest::test_find_ticket", 
+  "home_screen_test.py::HomeScreenTest::test_load_title"
+]
