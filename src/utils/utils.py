@@ -17,3 +17,4 @@ def is_browser_console_contain_error_log(webdriver):
                     print log
                     return True
     return False
+    

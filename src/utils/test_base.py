@@ -26,3 +26,15 @@ class TestBase(unittest.TestCase):
 
     def check_browser_console_error(self):
         self.assertFalse(is_browser_console_contain_error_log(self.driver))
+
+    # Utils functions
+    def click_xpath(self, xpath):
+        self.button = self.driver.find_element_by_xpath(xpath)
+        self.button.click()
+        sleep(2)
+        return self.button
+
+    def scroll_page(self, toElement):
+        self.driver.execute_script("")
+
+    
